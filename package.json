@@ -1,6 +1,6 @@
 {
   "name": "@watergis/postgis2inp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This module is to create EPANET INP file directory from PostGIS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -37,7 +37,7 @@
     "typescript": "^3.9.6"
   },
   "dependencies": {
-    "@watergis/geojson2inp": "^0.1.3",
+    "@watergis/geojson2inp": "^0.1.4",
     "@watergis/postgis2geojson": "^0.1.6",
     "fs": "0.0.1-security"
   },
