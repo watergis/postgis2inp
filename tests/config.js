@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const export_dir = __dirname;
 const epsg = 4326;
-const wss_id = '5041';
+const wss_id = '50319';
 
 module.exports = {
     geojson2inp:{
@@ -22,7 +22,7 @@ module.exports = {
         user:process.env.DB_USER,
         password:process.env.DB_PASSWORD,
         host:process.env.DB_HOST,
-        post:process.env.DB_PORT,
+        port:process.env.DB_PORT,
         database:'rwss_assets',
       },
       layers : [
